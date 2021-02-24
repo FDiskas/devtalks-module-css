@@ -1,6 +1,7 @@
 {
   "extends": [
     "airbnb-typescript",
+    "plugin:unicorn/recommended",
     "prettier"
   ],
   "parser": "@typescript-eslint/parser",
@@ -16,6 +17,10 @@
     "project": "./tsconfig.json"
   },
   "rules": {
-    "prettier/prettier": "error"
+    "prettier/prettier": "error",
+    "import/prefer-default-export": "off",
+    "react/destructuring-assignment": "off",
+    "react/prop-types": "off",
+    "jsx-a11y/label-has-associated-control": "off"
   }
 }

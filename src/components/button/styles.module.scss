@@ -1,0 +1,7 @@
+@import "../../styles.module.scss";
+
+.button {
+  @extend .foo;
+
+  border: 2px solid red;
+}
