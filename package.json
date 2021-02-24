@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "parcel src/index.html --no-autoinstall --open",
     "build": "rimraf dist && parcel build src/index.html --no-source-maps",
+    "serve": "serve dist -s -C -n",
     "pretest": "npm run lint:css && npm run lint && tsc --noEmit",
     "format": "prettier --loglevel warn --write \"**/*.{ts,tsx,css,md}\"",
     "posttest": "npm run format",
@@ -42,6 +43,7 @@
     "postcss": "^8.2.6",
     "prettier": "^2.2.1",
     "rimraf": "^3.0.2",
+    "serve": "^11.3.2",
     "stylelint": "^13.11.0",
     "stylelint-config-recommended-scss": "^4.2.0",
     "stylelint-config-standard": "^20.0.0",
