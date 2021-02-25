@@ -1,6 +1,6 @@
 {
   "plugins": ["stylelint-prettier"],
-  "extends": ["stylelint-config-standard","stylelint-config-recommended-scss"],
+  "extends": ["stylelint-config-standard","stylelint-config-css-modules", "stylelint-config-recommended-scss"],
   "rules": {
     "prettier/prettier": true
   }
